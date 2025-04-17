@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+html, body {
+  font-family: "Cerebri Sans", sans-serif;
+  font-weight: 400;
+  background-color: hsl(210, 50%, 98%);
+}
+/*Custom color*/
+:root {
+  --color-bg-title: #edf2f9;
+  --color-overlay-bg: #3b506c;
+  --color-hover-input: #2c7be5;
+  --color-button: #12263f;
+}
+
+/* Custom scrollbar (dùng để bỏ quận scroll nhưng vẫn có thể scroll được)*/ 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom Swiper Pagination */
+.custom-pagination .swiper-pagination-bullet {
+  background: black;
+  opacity: 0.4;
+  width: 7px;
+  height: 7px;
+}
+.custom-pagination .swiper-pagination-bullet-active {
+  background: black;
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+}
+
+.banner {
+  background-image: url("https://cdn.moveek.com/storage/media/cache/short/67d69a94105c7949100573.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
